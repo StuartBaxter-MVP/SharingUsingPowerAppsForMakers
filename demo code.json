@@ -24,7 +24,9 @@ Set(
             properties.displayName = "Sharing is caring"
         )
     )
-);//Share the app with the user
+);
+
+//Share the app with the user
 PowerAppsforMakers.EditAppRoleAssignment(
     gblApp.name,
     {
